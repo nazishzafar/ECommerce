@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/Payment.js", "pages/Login.js", "components/Layout.js", "pages/OrderHistory.js", "pages/orders/[id].js", "pages/Cart.js", "pages/_app.js", "pages/product/[slug].js", "components/ProductItems.js", "components/ProductItems.js", "pages/Shipping.js", "pages/Register.js", "pages/Profile.js", "pages/PlaceOrder.js"],
+  "exclude": ["node_modules"]
+}
